@@ -1,0 +1,105 @@
+/*tomado de Google Fonds*/
+body{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+body {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #010001;
+  color: white;
+  font-size: 1.5rem;
+}
+
+h1 { font-size: 48px; margin-bottom: 30px; }
+
+p{
+    font-size: 18px;
+    color: #999999;
+    line-height: 1.8;
+    margin-bottom: 0;
+}
+
+a :hover {
+    text-decoration: none;
+}
+
+.navbar {
+    background-color:#ffffff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
+    min-height: 100px;
+}
+
+.nav-link { color:#1a1a1a; }
+.nav-link:hover { color: #1a1a1a; }
+
+.logo-brand {
+    min-width: 50px;
+    max-width: 70px;
+}
+
+.navbar-toggler { font-size: 40px; }
+.navbar-toggler:focus { outline: none; }
+
+#hero {
+    background-image: url('image/kletra.png');
+    background-size: cover;
+    padding-top: 100px;
+    min-height: 770px;
+}
+
+.portafolio-container {
+    position: relative;
+    overflow: hidden;
+    margin: 10px 0;
+    border-radius: 2px;
+} 
+
+*{
+	box-sizing:border-box;
+}
+.img{
+	border-radius: 8px;
+}
+
+#progress {
+  padding-top: 90px;
+  min-width: 1000px;
+}
+
+.progress-bar-animated
+  .progress-bar
+
+#servicios {
+  background-size: cover;
+    padding-top: 90px;
+    min-height: 700px;
+}
+
+#contacto {
+    padding-top: 90px;
+    min-width: 700px;
+}
+
+.redes {
+    height: 50px;
+    padding: 30px;
+}
+.red{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.red li{
+    display: inline-block;
+}
+.red a{
+    padding: 10px;
+}
+.creador{
+    padding: 30px;
+}
